@@ -1,0 +1,15 @@
+bin
+Bin
+obj
+Debug
+Release
+Logs
+_ReSharper.*
+~$*.*
+.vs
+*.suo
+*.user
+*.bak
+*.orig 
+*.log
+*.cache
