@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XDevDaysJau.View.PagesXamarin"
+             Title="Pages do Xamarin">
+
+    <StackLayout Padding="10,10,10,10" Spacing="10">
+        <Button x:Name ="btnCarousel" Text="Carousel" Clicked="btnCarousel_Clicked"/>
+        <Button x:Name ="btnMasterDetail" Text="Master Detail" Clicked="btnMasterDetail_Clicked"/>
+        <Button x:Name ="btnTabbed" Text="Tabbed" Clicked="btnTabbed_Clicked"/>
+    </StackLayout>
+
+
+</ContentPage>

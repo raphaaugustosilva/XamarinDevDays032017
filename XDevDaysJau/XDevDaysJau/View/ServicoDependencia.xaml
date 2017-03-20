@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XDevDaysJau.View.ServicoDependencia"
+             Title="Serviço de Dependência">
+
+    <StackLayout Padding="10,30,10,10" Orientation="Horizontal" Spacing="20" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand">
+        <Entry x:Name="entNumeroTelefone" Placeholder="Entre com o telefone" HorizontalOptions="Start" VerticalOptions="Center"/>
+
+        <Button x:Name="btnDiscar" Text="Discar" HorizontalOptions="Start" VerticalOptions="Center" Clicked="btnDiscar_Clicked"/>
+    </StackLayout>
+        
+</ContentPage>

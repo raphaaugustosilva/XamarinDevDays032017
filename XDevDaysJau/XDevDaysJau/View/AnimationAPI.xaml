@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XDevDaysJau.View.AnimationAPI"
+             Title="Animation API">
+
+    <StackLayout x:Name="stkBackground"  Padding="10,10,10,10" Spacing="8">
+
+        <Button x:Name="btnAnimar" Text="Vamos animar, Jaú !!" BackgroundColor="Lime" Clicked="btnAnimar_Clicked"/>
+        
+        <Label x:Name="lblLabelGirar" Text="Este texto irá girar !" />
+
+        <StackLayout x:Name="stkMovimentar01" BackgroundColor="Red" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" HeightRequest="40" WidthRequest="40" />
+
+        <StackLayout x:Name="stkMovimentar02" BackgroundColor="Black" HorizontalOptions="End" VerticalOptions="End" HeightRequest="40" WidthRequest="40" />
+
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+			 x:Class="XDevDaysJau.View.Pages.MasterPageDevDays.MasterPage"
+			 Padding="0,40,0,0"
+			 Icon="sanduiche.png"
+			 Title="Dev Days Jau"
+             BackgroundColor="Gray">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand" BackgroundColor="Gray">
+            <ListView x:Name="listView" VerticalOptions="FillAndExpand" SeparatorVisibility="None" BackgroundColor="Gray">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="20,5,10,5"  Orientation="Horizontal" Spacing="20">
+                                <Image Source="{Binding IconSource}" HeightRequest="30" WidthRequest="30" VerticalOptions="Center"/>
+                                <Label Text="{Binding Title}" TextColor="White" VerticalOptions="Center"/>
+                            </StackLayout>                            
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+	<uses-sdk android:minSdkVersion="15" />
+	<application android:label="XDevDaysJau.Android"></application>
+
+
+  <!--Necessário para a rotina de ligação telefônica (LigacaoTelefonica)-->
+  <!--Necessário para rodar em tablets (pois tablets não possuem o "telefony", então para que seja possível instalar o app em tablets, devemos "tirar a obrigatoriedade" do telefony -->
+  <uses-feature android:name="android.hardware.telephony" android:required="false" />
+
+  <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+</manifest>

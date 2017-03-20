@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XDevDaysJau.View.Pages.PaginaTabbed"
+             xmlns:pages="clr-namespace:XDevDaysJau.View.Pages;assembly=XDevDaysJau"
+             Title="TabbedPage">
+    
+    <!--Pages can be added as references or inline-->
+    <pages:PaginaTabbedTab1/>
+    
+    <ContentPage Title="Dev Days" Icon="iconcamera.png">
+        <StackLayout>
+            <Label Text="Página Dev Days" HorizontalTextAlignment="Center" HorizontalOptions="Center" Margin="5" FontSize="Large"/>
+            <BoxView Color="Green" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="80" HeightRequest="80"/>
+        </StackLayout>
+    </ContentPage>
+    
+    <ContentPage Title="Calçados" Icon="iconconstructionworker.png">
+        <StackLayout>
+            <Label Text="Página de Calçados" HorizontalTextAlignment="Center" HorizontalOptions="Center" Margin="5" FontSize="Large"/>
+            <BoxView Color="Blue" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="80" HeightRequest="80"/>
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>

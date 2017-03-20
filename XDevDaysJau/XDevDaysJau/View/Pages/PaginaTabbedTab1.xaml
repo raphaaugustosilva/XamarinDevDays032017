@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XDevDaysJau.View.Pages.PaginaTabbedTab1"
+             Title="Olá Jaú"
+             Icon="iconbadge.png">
+    <StackLayout>
+        <Label Text="Olá Jaú !!" HorizontalTextAlignment="Center" HorizontalOptions="Center" Margin="5" FontSize="Large"/>
+        <BoxView Color="Red" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="80" HeightRequest="80"/>
+    </StackLayout>
+</ContentPage>
